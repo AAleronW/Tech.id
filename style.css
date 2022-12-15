@@ -1,0 +1,569 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+}
+/* Style */
+body{
+	background-color:#ddd;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+	height: 57px;
+	align-items: center;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	z-index: 4;
+}
+nav .logo{
+	display: flex;
+	margin-left: 30px;
+}
+
+	
+
+nav ul{
+    display: flex;
+   justify-content: space-between;
+   width: 35%;
+   margin:0 20px;
+
+}
+nav ul li{
+	padding:10px  15px; 
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+nav ul li:hover{
+	color:#D19C1D;
+	transition:all 0.3s;
+}
+nav ul .masuk{
+	background-color: #D19C1D;
+	color: white;
+	margin-left: 19px;
+	padding: 10px 15px;
+	margin-right:8px ;
+}
+nav ul a{
+	text-decoration: none;
+	color: black;
+}
+
+/* gambar */
+.gambar{
+	width: 100%;
+	height: 810px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../techomfest/img/gambar.jpg);
+	background-size:cover
+	
+}
+.gambar .text{
+	width: 70%;
+	height: auto;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	position: absolute;
+}
+.gambar .text h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 40px;
+}
+.gambar .text .link a{
+	text-decoration: none;
+	color: white;
+	background-color: #D19C1D;
+	padding: 13px 15px;
+	border-radius: 6px;
+}
+.gambar .text .link{
+	margin-top: 10px;
+}
+.manfaat{
+	width: 100%;
+	height: 612px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+}
+.manfaat .header{
+	width: 100%;
+	height: 30%;
+	justify-content: center;
+	
+}
+.manfaat .header h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.manfaat .kotak{
+	display: flex;
+}
+.manfaat .kotak div{
+	width: 306px;
+	height: 222px ;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+}
+.manfaat .kotak div h1{
+	font-size: 18;
+	font-weight: bold;
+}
+.manfaat .kotak div h2{
+	font-size: 16px;
+	color: #A5A5A5;
+}
+.kotak3{
+	width: 100%;
+	height: 1158px;
+	display: flex;
+	flex-direction:column ;
+	align-items: center;
+	justify-content: space-around;
+}
+.kotak3 .barisan-atas{
+	height: 365px;
+	width: 1028px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.kotak3 .barisan-bawah{
+	height: 365px;
+	width: 672px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.kotak3 .header{
+	height: 15%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kotak3 .header h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.kotak3 .box{
+	height: 770px;
+	width: 1028px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.kotak3 .barisan-atas div{
+	width: 316px;
+	height: 365px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+.kotak3 .barisan-atas div h1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.kotak3 .barisan-atas div h2{
+	font-size: 16px;
+	color: #A5A5A5;
+}
+.kotak3 .barisan-bawah div{
+	width: 316px;
+	height: 365px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+.kotak3 .barisan-bawah div h1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.kotak3 .barisan-bawah div h2{
+	font-size: 16px;
+	color: #A5A5A5;
+}
+.kotak3 a{
+	text-decoration: none;
+	color: white;
+	background-color: #D19C1D;
+	padding: 13px 15px;
+	border-radius: 6px;
+}
+
+.kotak4{
+	height: 517px;
+	width: 100%;
+	background-color: #D19C1D;
+	color: white	;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	line-height: 30px;
+}
+.kotak4 .text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50%;
+	width: 65%;
+	justify-content: space-evenly;
+}
+.kotak4 .text h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.kotak4 .text h2{
+	font-size: 18px;
+	font-weight: medium;
+}
+.kotak4 a{
+	text-decoration: none;
+	color: #D19C1D;
+	background-color:white;
+	padding: 13px 15px;
+	border-radius: 6px;
+}
+.kotak5{
+	width: 100%;
+	height: 670px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.kotak5 .header{
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.kotak5 .header h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.kotak5 .box{
+	width: 1279px;
+	height: 282px;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.kotak5 .box .komen{
+	width: 316px;
+	height: 271px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 16px;
+	text-align: center;
+}
+.kotak5 .box .komen .nama{
+	color: #A5A5A5;
+}
+.kotak5 .box .komen .text{
+	width: 75%;
+	font-weight: bold;
+	justify-content: space-evenly
+}
+.kotak5 .box .komen .text .kutip{
+	color: #D19C1D;
+	font-size:50px ;
+}
+.kotak5 .box div .circle{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	padding: 10px;
+}
+footer{
+	width: 100%;
+	height: 502px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	justify-content: space-around;
+}
+footer .box{
+	width: 1201;
+	height: 202;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+
+}
+/* footer .box div{
+	background-color: azure;
+} */
+footer .box .sosmed{
+	width: 246px;
+	height: 16px;
+	display: flex;
+	flex-direction: column;
+
+	
+}
+footer .box .sosmed h1{
+	padding-bottom: 10px;
+}
+footer .box .sosmed img{
+	padding: 10px 0;
+}
+footer .box .sosmed h2{
+	padding: 10px 0;
+}
+footer .box .konten{
+	width: 71px;
+	height: 165px;
+}
+footer .box .bantuan{
+	width: 70px;
+	height: 91px;
+}
+footer .box .perusahaan{
+	width: 99px;
+	height: 202px;
+}
+footer .box div ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+footer .box .sosmed h1{
+	font-weight:600 ;
+}
+footer .box div ul h1{
+	font-weight:600;
+	padding-bottom: 10px;
+}
+footer .box div ul li{
+	padding: 10px 0;
+}
+footer .copyright{
+	display: flex;
+	align-self: center;
+	text-align: center;
+	height: 20px;
+	
+}
+footer .copyright h2{
+	text-align:center;
+	padding:5px ;
+	margin-left: 4px;
+}
+/* Menu Toogle */
+.menu-toogle{
+	display: none;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+	position: relative;
+	}
+	.menu-toogle input{
+		position: absolute;
+		width: 40px;
+		height: 28px;
+		opacity:0;
+		left: -6px;
+		top:-4px ;
+		cursor: pointer;
+		z-index: 2;
+	}
+	.menu-toogle span{
+		display: block;
+		width: 28px;
+		height: 3px;
+		background-color: black;
+		border-radius: 3px;
+		transition: all 0.7s;
+	}
+	.menu-toogle span:nth-child(2){
+		transform-origin: 0 0;
+	   }
+	   .menu-toogle span:nth-child(4){
+		   transform-origin: 0 100%;
+		  }
+	   .menu-toogle input:checked ~ span:nth-child(2){
+		   background-color: #D19C1D;
+		   transform: rotate(45deg) translate(-1px,-1px);
+	   }
+	   .menu-toogle input:checked ~ span:nth-child(4){
+		   background-color: #D19C1D;
+		   transform: rotate(-45deg) translate(-1px, 0 );
+	   }
+	   .menu-toogle input:checked ~ span:nth-child(3){
+		scale: 0;
+	   }
+/* Ukuran HP */
+@media screen and (max-width: 480px) {
+    .menu-toogle{
+        display: flex;
+		margin-left: 25px;
+    }
+	nav ul{
+		position: absolute;
+		right: 0;
+		flex-direction: column;
+		background-color:white;
+		top: 0;
+		height: 100vh;
+		align-items: center;
+		justify-content: space-evenly;
+		z-index: -4;
+		opacity: 0;
+		width: 80%;
+		transform: translateX(100%);
+		transition: all 1.2s;
+		margin-right: -4px;
+	}
+	nav .logo{
+		z-index: 3;
+		margin-right: 25px;
+	}
+	nav ul.slide{ 
+        transform: translateX(0);
+        opacity: 1;
+        z-index: 1;
+    }
+	.gambar img{
+		background-size: cover;
+	}
+	.manfaat{
+		height: 1000px;
+		display: flex;
+	}
+	.manfaat .header {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 20%;
+	}
+	.manfaat .header h1{
+		justify-self: center;
+		align-self: center;
+		margin-top: 50px;
+	}
+	.manfaat .kotak{
+		height: 768px;
+		display: flex;
+		flex-direction:column ;
+	}
+	.kotak3{
+		height: 2669px;
+		width: 100%;
+	}
+	.kotak3 .header{
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.kotak3 .box{
+		flex-wrap: wrap;
+		height: 2000px ;
+	}
+	.kotak3 .box .barisan-atas{
+		height:1150px;
+		width: 480px;
+		justify-content: space-around;
+	}
+	.kotak3 .box .barisan-bawah{
+		height: 800px;
+		width: 480px;
+		justify-content: space-around;
+	}
+	.kotak4{
+		height: 761px;
+	}
+	.kotak4 .text h1{
+		margin-bottom: 30px;
+	}
+	.kotak5{
+		height: 717px;
+	}
+	.kotak5 .box .komen{
+		display: none;
+	}
+	.kotak .box .satu .komen{
+		display: flex;
+	}
+}
