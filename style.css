@@ -480,6 +480,12 @@ footer .copyright h2{
         display: flex;
 		margin-left: 25px;
     }
+	
+	body{
+		box-sizing: border-box;
+	}
+	nav{
+		width: 480px;}
 	nav ul{
 		position: absolute;
 		right: 0;
@@ -495,6 +501,7 @@ footer .copyright h2{
 		transform: translateX(100%);
 		transition: all 1.2s;
 		margin-right: -4px;
+	
 	}
 	nav .logo{
 		z-index: 3;
@@ -511,6 +518,7 @@ footer .copyright h2{
 	.manfaat{
 		height: 1000px;
 		display: flex;
+		width: 100%;
 	}
 	.manfaat .header {
 		justify-content: center;
@@ -556,14 +564,28 @@ footer .copyright h2{
 	}
 	.kotak4 .text h1{
 		margin-bottom: 30px;
+		line-height: 50px;
 	}
 	.kotak5{
 		height: 717px;
 	}
-	.kotak5 .box .komen{
+	.kotak5 .box .i{
 		display: none;
 	}
-	.kotak .box .satu .komen{
+	.kotak .box .satu {
 		display: flex;
+	}
+	footer{
+		height: 1346px;
+		display: flex;
+		align-items: center;
+	}
+	footer .box{
+		height: 1002px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}footer .copyright{
+		flex-direction: column;
 	}
 }
