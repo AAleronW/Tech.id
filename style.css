@@ -80,7 +80,7 @@ nav ul li{
 	font-weight: 400;
 
 }
-nav ul li:hover{
+nav ul .list:hover{
 	color:#D19C1D;
 	transition:all 0.3s;
 }
@@ -90,9 +90,6 @@ nav ul .masuk{
 	margin-left: 19px;
 	padding: 10px 15px;
 	margin-right:8px ;
-}
-nav ul .masuk::hover{
-	color:white;
 }
 nav ul a{
 	text-decoration: none;
