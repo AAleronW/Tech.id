@@ -91,6 +91,9 @@ nav ul .masuk{
 	padding: 10px 15px;
 	margin-right:8px ;
 }
+nav ul .masuk::hover{
+	color:white;
+}
 nav ul a{
 	text-decoration: none;
 	color: black;
@@ -104,7 +107,7 @@ nav ul a{
 	justify-content:center;
 	align-items: center;
 	flex-direction: column;
-	background-image: url(../techomfest/img/gambar.jpg);
+	background-image: url(img/gambar.jpg);
 	background-size:cover
 	
 }
